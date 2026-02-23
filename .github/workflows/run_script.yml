@@ -1,0 +1,43 @@
+name: Steam Price Tracker
+
+on:
+  schedule:
+    - cron: '0 9 * * *'   # 09:00 UTC zilnic
+    - cron: '0 21 * * *'  # 21:00 UTC zilnic
+  workflow_dispatch:       # permite și rulare manuală
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests openpyxl google-auth google-auth-oauthlib google-api-python-client
+
+      - name: Restore history
+        uses: actions/cache@v3
+        with:
+          path: |
+            price_history.json
+            gdrive_token.pickle
+          key: steam-data-${{ github.run_id }}
+          restore-keys: steam-data-
+
+      - name: Run script
+        run: python steam_pythonanywhere.py
+        env:
+          GDRIVE_CREDENTIALS: ${{ secrets.GDRIVE_CREDENTIALS }}
+
+      - name: Save history
+        uses: actions/cache@v3
+        with:
+          path: |
+            price_history.json
+            gdrive_token.pickle
+          key: steam-data-${{ github.run_id }}
