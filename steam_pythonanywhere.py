@@ -46,17 +46,34 @@ def get_gdrive_service():
     if not GDRIVE_AVAILABLE:
         return None
     creds = None
+
+    # Încearcă să încarce token-ul salvat
     if os.path.exists(TOKEN_FILE):
         with open(TOKEN_FILE, "rb") as f:
             creds = pickle.load(f)
+
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
+            # Reîmprospătează automat token-ul expirat
             creds.refresh(Request())
+            with open(TOKEN_FILE, "wb") as f:
+                pickle.dump(creds, f)
         else:
-            if not os.path.exists(CREDENTIALS_FILE):
-                print("❌ credentials.json lipsește! Urmează ghidul PDF.")
+            # Încearcă să citească credențialele din variabila de mediu (GitHub Actions)
+            gdrive_creds_env = os.environ.get("GDRIVE_CREDENTIALS")
+            if gdrive_creds_env:
+                import tempfile
+                with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False) as tmp:
+                    tmp.write(gdrive_creds_env)
+                    tmp_path = tmp.name
+                flow = InstalledAppFlow.from_client_secrets_file(tmp_path, SCOPES)
+                os.unlink(tmp_path)
+            elif os.path.exists(CREDENTIALS_FILE):
+                flow = InstalledAppFlow.from_client_secrets_file(CREDENTIALS_FILE, SCOPES)
+            else:
+                print("❌ credentials.json lipsește și GDRIVE_CREDENTIALS nu e setat!")
                 return None
-            flow = InstalledAppFlow.from_client_secrets_file(CREDENTIALS_FILE, SCOPES)
+
             flow.redirect_uri = "urn:ietf:wg:oauth:2.0:oob"
             auth_url, _ = flow.authorization_url(prompt="consent")
             print("\n🔗 Deschide acest link în browser (Chrome/Firefox):\n")
@@ -65,8 +82,9 @@ def get_gdrive_service():
             code = input("📋 Paste codul primit de la Google aici: ").strip()
             flow.fetch_token(code=code)
             creds = flow.credentials
-        with open(TOKEN_FILE, "wb") as f:
-            pickle.dump(creds, f)
+            with open(TOKEN_FILE, "wb") as f:
+                pickle.dump(creds, f)
+
     return build("drive", "v3", credentials=creds)
 
 def get_or_create_folder(service, name, parent_id=None):
