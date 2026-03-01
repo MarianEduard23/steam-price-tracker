@@ -536,6 +536,7 @@ def main():
         {'name': 'Snakebite Case', 'app_id': '730', 'quantity': 150},
         {'name': 'Budapest 2025 Contenders Sticker Capsule', 'app_id': '730', 'quantity': 1000},
         {'name': 'Austin 2025 Contenders Sticker Capsule', 'app_id': '730', 'quantity': 100},
+        {'name': 'Austin 2025 Legends Sticker Capsule', 'app_id': '730', 'quantity': 100},
         {'name': 'MP9 | Nexus (Field-Tested)', 'app_id': '730', 'quantity': 57},
         {'name': 'MAG-7 | Resupply (Field-Tested)', 'app_id': '730', 'quantity': 37},
         {'name': 'XM1014 | Mockingbird (Field-Tested)', 'app_id': '730', 'quantity': 5},
