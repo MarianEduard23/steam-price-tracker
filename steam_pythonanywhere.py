@@ -541,6 +541,7 @@ def main():
         {'name': 'MAG-7 | Resupply (Field-Tested)', 'app_id': '730', 'quantity': 37},
         {'name': 'XM1014 | Mockingbird (Field-Tested)', 'app_id': '730', 'quantity': 5},
         {'name': '2021 Community Sticker Capsule', 'app_id': '730', 'quantity': 10},
+        {'name': 'Community Sticker Capsule 1', 'app_id': '730', 'quantity': 5},
         {'name': 'Souvenir Charm | Austin 2025 Highlight | 1 Bullet', 'app_id': '730', 'quantity': 1},
         {'name': 'Sticker | torzsi (Gold) | Shanghai 2024', 'app_id': '730', 'quantity': 1},
         {'name': 'Sticker | iM (Holo) | Paris 2023', 'app_id': '730', 'quantity': 1},
