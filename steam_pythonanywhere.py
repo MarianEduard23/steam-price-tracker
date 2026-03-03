@@ -524,6 +524,7 @@ def main():
         {'name': 'Bloody Darryl The Strapped | The Professionals', 'app_id': '730', 'quantity': 1},
         {'name': "Chef d'Escadron Rouchard | Gendarmerie Nationale", 'app_id': '730', 'quantity': 1},
         {'name': "Prof. Shahmat | Elite Crew", 'app_id': '730', 'quantity': 1},
+        {'name': 'Operation Breakout Weapon Case', 'app_id': '730', 'quantity': 5},
         {'name': 'Clutch Case', 'app_id': '730', 'quantity': 50},
         {'name': 'Prisma 2 Case', 'app_id': '730', 'quantity': 10},
         {'name': 'Gallery Case', 'app_id': '730', 'quantity': 200},
