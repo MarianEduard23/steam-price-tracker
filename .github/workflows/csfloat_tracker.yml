@@ -1,8 +1,7 @@
 name: CSFloat Price Tracker
 on:
   schedule:
-    - cron: '0 1 * * *'   # 03:00 UTC+2 zilnic
-    - cron: '0 8 * * *'   # 10:00 UTC+2 zilnic
+    - cron: '0 7 * * *'   # 09:00 UTC+2 zilnic
     - cron: '0 17 * * *'  # 19:00 UTC+2 zilnic
   workflow_dispatch:       # permite și rulare manuală
 
