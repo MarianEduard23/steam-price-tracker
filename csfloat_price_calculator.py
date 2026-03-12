@@ -960,7 +960,7 @@ def main():
         {'name': 'Fracture Case',                                        'quantity': 150},
         {'name': 'Kilowatt Case',                                        'quantity': 20},
         {'name': 'Recoil Case',                                          'quantity': 150},
-        {'name': 'Revolution Case',                                      'quantity': 251},
+        {'name': 'Revolution Case',                                      'quantity': 300},
         {'name': 'Snakebite Case',                                       'quantity': 150},
         {'name': 'Operation Vanguard Weapon Case', 'app_id': '730', 'quantity': 5},
         {'name': 'Budapest 2025 Contenders Sticker Capsule',             'quantity': 1000},
