@@ -502,7 +502,6 @@ def create_excel(items_list, output="longlistitems.xlsx"):
 def main():
     items = [
         {'name': '★ Nomad Knife | Marble Fade (Factory New)', 'app_id': '730', 'quantity': 1},
-        {'name': '★ Specialist Gloves | Buckshot (Minimal Wear)', 'app_id': '730', 'quantity': 1},
         {'name': 'Zeus x27 | Tosai (Factory New)', 'app_id': '730', 'quantity': 80},
         {'name': 'AK-47 | Searing Rage (Factory New)', 'app_id': '730', 'quantity': 1},
         {'name': 'AK-47 | The Outsiders (Minimal Wear)', 'app_id': '730', 'quantity': 1},
