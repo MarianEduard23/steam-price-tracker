@@ -532,7 +532,7 @@ def main():
         {'name': 'Fracture Case', 'app_id': '730', 'quantity': 150},
         {'name': 'Kilowatt Case', 'app_id': '730', 'quantity': 20},
         {'name': 'Recoil Case', 'app_id': '730', 'quantity': 150},
-        {'name': 'Revolution Case', 'app_id': '730', 'quantity': 251},
+        {'name': 'Revolution Case', 'app_id': '730', 'quantity': 300},
         {'name': 'Snakebite Case', 'app_id': '730', 'quantity': 150},
         {'name': 'Operation Vanguard Weapon Case', 'app_id': '730', 'quantity': 5},
         {'name': 'Budapest 2025 Contenders Sticker Capsule', 'app_id': '730', 'quantity': 1000},
