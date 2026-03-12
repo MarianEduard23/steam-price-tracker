@@ -930,7 +930,6 @@ def main():
 
     items = [
         {'name': '★ Nomad Knife | Marble Fade (Factory New)',            'quantity': 1},
-        {'name': '★ Specialist Gloves | Buckshot (Minimal Wear)',        'quantity': 1},
         {'name': 'Zeus x27 | Tosai (Factory New)',                       'quantity': 80},
         {'name': 'AK-47 | Searing Rage (Factory New)',                   'quantity': 1},
         {'name': 'AK-47 | The Outsiders (Minimal Wear)',                 'quantity': 1},
