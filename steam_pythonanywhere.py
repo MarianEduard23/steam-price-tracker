@@ -570,7 +570,7 @@ def main():
         {'name': 'Sticker | Skelly Stabby', 'app_id': '730', 'quantity': 1},
         {'name': 'Sticker | POTS', 'app_id': '730', 'quantity': 2},
         {'name': 'Sticker | Lefty (CT)', 'app_id': '730', 'quantity': 1},
-        {'name': 'Sticker | Scorch Loop (Reverse)', 'app_id': '730', 'quantity': 42},
+        {'name': 'Sticker | Scorch Loop (Reverse)', 'app_id': '730', 'quantity': 124},
         {'name': 'Sticker | XD', 'app_id': '730', 'quantity': 20},
         {'name': 'Sticker | Glare', 'app_id': '730', 'quantity': 20},
         {'name': 'Sticker | From The Deep', 'app_id': '730', 'quantity': 20},
