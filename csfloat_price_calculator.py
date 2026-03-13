@@ -998,7 +998,7 @@ def main():
         {'name': 'Sticker | Skelly Stabby',                              'quantity': 1},
         {'name': 'Sticker | POTS',                                       'quantity': 2},
         {'name': 'Sticker | Lefty (CT)',                                 'quantity': 1},
-        {'name': 'Sticker | Scorch Loop (Reverse)',                      'quantity': 42},
+        {'name': 'Sticker | Scorch Loop (Reverse)',                      'quantity': 124},
         {'name': 'Sticker | XD',                                         'quantity': 20},
         {'name': 'Sticker | Glare',                                      'quantity': 20},
         {'name': 'Sticker | From The Deep',                              'quantity': 20},
