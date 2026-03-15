@@ -525,7 +525,7 @@ def main():
         {'name': "Prof. Shahmat | Elite Crew", 'app_id': '730', 'quantity': 1},
         {'name': 'Operation Breakout Weapon Case', 'app_id': '730', 'quantity': 5},
         {'name': 'Clutch Case', 'app_id': '730', 'quantity': 50},
-        {'name': 'Prisma 2 Case', 'app_id': '730', 'quantity': 10},
+        {'name': 'Prisma 2 Case', 'app_id': '730', 'quantity': 20},
         {'name': 'Gallery Case', 'app_id': '730', 'quantity': 200},
         {'name': 'Danger Zone Case', 'app_id': '730', 'quantity': 5},
         {'name': 'Fever Case', 'app_id': '730', 'quantity': 500},
