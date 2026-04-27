@@ -1022,6 +1022,17 @@ def main():
         {'name': 'Sticker | NiKo | Paris 2023', 'app_id': '730', 'quantity': 200},
         {'name': 'Sticker | RED Canids (Gold) | Budapest 2025', 'app_id': '730', 'quantity': 2},
         {'name': 'Sticker | fnatic (Gold) | Budapest 2025', 'app_id': '730', 'quantity': 1},
+		{'name': 'Sticker | Ruby Stream (Lenticular)', 'app_id': '730', 'quantity': 1},
+	{'name': 'Sticker | Lucas (Foil)', 'app_id': '730', 'quantity': 2},
+	{'name': 'Sticker | Lorena (Foil)', 'app_id': '730', 'quantity': 1},
+	{'name': 'Sticker | Clavis (Holo)', 'app_id': '730', 'quantity': 3},
+	{'name': 'Sticker | Lorena (Holo)', 'app_id': '730', 'quantity': 7},
+	{'name': 'Sticker | Lucas (Holo)', 'app_id': '730', 'quantity': 6},
+	{'name': 'Sticker | Lorena', 'app_id': '730', 'quantity': 33},
+	{'name': 'Sticker | Clavis', 'app_id': '730', 'quantity': 28},
+	{'name': 'Sticker | Lucas', 'app_id': '730', 'quantity': 30},
+	{'name': 'Sticker | FlyQuest (Holo) | Budapest 2025', 'app_id': '730', 'quantity': 1},
+	{'name': 'Sticker | Natus Vincere (Holo) | Budapest 2025', 'app_id': '730', 'quantity': 1},
         {'name': 'Sticker | iM (Glitter) | Copenhagen 2024', 'app_id': '730', 'quantity': 50}
     ]
 
