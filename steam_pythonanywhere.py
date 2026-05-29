@@ -523,7 +523,7 @@ def main():
         {'name': 'AK-47 | The Outsiders (Minimal Wear)', 'app_id': '730', 'quantity': 1},
         {'name': 'AK-47 | Aphrodite (Well-Worn)', 'app_id': '730', 'quantity': 1},
         {'name': 'AWP | Ice Coaled (Minimal Wear)', 'app_id': '730', 'quantity': 2},
-		{'name': 'AWP | Ice Coaled (Factory New)', 'app_id': '730', 'quantity': 1},
+		{'name': 'AK-47 | Inheritance (Minimal Wear)', 'app_id': '730', 'quantity': 1},
 		{'name': 'AWP | Printstream (Minimal Wear)', 'app_id': '730', 'quantity': 1},
 		{'name': 'M4A4 | Turbine (Minimal Wear)', 'app_id': '730', 'quantity': 7},
         {'name': 'M4A1-S | Black Lotus (Factory New)', 'app_id': '730', 'quantity': 1},
