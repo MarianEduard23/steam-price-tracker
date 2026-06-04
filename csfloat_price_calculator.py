@@ -934,7 +934,7 @@ def main():
 
     items = [
         {'name': '★ Nomad Knife | Marble Fade (Factory New)', 'app_id': '730', 'quantity': 1},
-        {'name': 'Zeus x27 | Tosai (Factory New)', 'app_id': '730', 'quantity': 100},
+        {'name': 'Zeus x27 | Tosai (Factory New)', 'app_id': '730', 'quantity': 115},
         {'name': 'AK-47 | Searing Rage (Factory New)', 'app_id': '730', 'quantity': 1},
         {'name': 'AK-47 | The Outsiders (Minimal Wear)', 'app_id': '730', 'quantity': 1},
         {'name': 'AK-47 | Aphrodite (Well-Worn)', 'app_id': '730', 'quantity': 1},
@@ -1023,7 +1023,7 @@ def main():
         {'name': 'Sticker | Bomb Planted (Holo)', 'app_id': '730', 'quantity': 4},
         {'name': 'Sticker | M80 (Foil) | Austin 2025', 'app_id': '730', 'quantity': 10},
         {'name': 'Sticker | FaZe Clan (Foil) | Austin 2025', 'app_id': '730', 'quantity': 20},
-        {'name': 'Sticker | iM (Foil) | Austin 2025', 'app_id': '730', 'quantity': 100},
+        {'name': 'Sticker | iM (Foil) | Austin 2025', 'app_id': '730', 'quantity': 165},
         {'name': 'Sticker | NiKo | Paris 2023', 'app_id': '730', 'quantity': 200},
         {'name': 'Sticker | RED Canids (Gold) | Budapest 2025', 'app_id': '730', 'quantity': 2},
         {'name': 'Sticker | fnatic (Gold) | Budapest 2025', 'app_id': '730', 'quantity': 1},
