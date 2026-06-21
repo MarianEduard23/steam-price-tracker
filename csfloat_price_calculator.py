@@ -936,7 +936,6 @@ def main():
         {'name': '★ Nomad Knife | Marble Fade (Factory New)', 'app_id': '730', 'quantity': 1},
         {'name': 'Zeus x27 | Tosai (Factory New)', 'app_id': '730', 'quantity': 115},
         {'name': 'AK-47 | Searing Rage (Factory New)', 'app_id': '730', 'quantity': 1},
-        {'name': 'AK-47 | The Outsiders (Minimal Wear)', 'app_id': '730', 'quantity': 1},
         {'name': 'AK-47 | Aphrodite (Well-Worn)', 'app_id': '730', 'quantity': 1},
         {'name': 'AWP | Ice Coaled (Minimal Wear)', 'app_id': '730', 'quantity': 2},
 		{'name': 'AK-47 | Inheritance (Minimal Wear)', 'app_id': '730', 'quantity': 1},
